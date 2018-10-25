@@ -1,0 +1,9 @@
+$lottonini-black-primary: mat-palette($mat-grey, 700, 300, 900);
+$lottonini-black-accent: mat-palette($mat-blue-grey, 400);
+$lottonini-black-warn: mat-palette($mat-red, 500);
+
+$lottonini-black-theme: mat-dark-theme(
+  $lottonini-black-primary,
+  $lottonini-black-accent,
+  $lottonini-black-warn
+);

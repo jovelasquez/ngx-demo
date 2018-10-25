@@ -1,0 +1,5 @@
+$lottonini-primary: mat-palette($mat-blue-grey);
+$lottonini-accent: mat-palette($mat-orange, 500, 900, A100);
+$lottonini-warn: mat-palette($mat-red, 400, 900, A100);
+
+$lottonini-theme: mat-light-theme($lottonini-primary, $lottonini-accent, $lottonini-warn);

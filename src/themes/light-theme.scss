@@ -1,0 +1,9 @@
+$lottonini-light-primary: mat-palette($mat-grey, 200, 500, 300);
+$lottonini-light-accent: mat-palette($mat-brown, 200);
+$lottonini-light-warn: mat-palette($mat-deep-orange, 200);
+
+$lottonini-light-theme: mat-light-theme(
+  $lottonini-light-primary,
+  $lottonini-light-accent,
+  $lottonini-light-warn
+);
